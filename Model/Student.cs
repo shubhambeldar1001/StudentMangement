@@ -6,6 +6,7 @@ namespace StudentMangement.Model
     {
         public Guid Id { get; set; }
         [Required, MaxLength(50)]
+        //name is requred
         public required string FirstName { get; set; }
         [Required, MaxLength(50)]
         public required string LastName { get; set; }
